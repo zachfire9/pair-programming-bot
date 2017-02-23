@@ -3,3 +3,6 @@ deployment:
     branch: master
     heroku:
       appname: pair-programming-bot
+test:
+  override:
+    - echo "test"
